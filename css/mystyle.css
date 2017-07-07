@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: #233233;
+    padding: 15px;
+    }
+
+#header1 {
+    float: left;
+    padding: 0px;
+    margin-left: 5px auto;
+}
+
+#img1 {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#butn1 {
+    float: left;
+}
+
+.container{
+    width: 100%;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.thumbnail {
+    border: none;
+}
+
+#bg1 {
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#img2 {
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+
+#word {
+    position: absolute;
+    left: 450px;
+    top: 100px;
+}
+
+#butngroup {
+    position: absolute;
+    left: 400px;
+    top: 210px;
+}
+
+#card1 {
+    background-color: black;
+    color: darkcyan;
+    font-family: "Microsoft Yahei";
+    padding: 15px;
+}
+
+#card2 {
+    background-color: lightblue;
+    color: whitesmoke;
+    font-family: "Microsoft Yahei";
+    padding: 15px;
+}
+
+#card3 {
+    background-color: lightblue;
+    color: whitesmoke;
+    font-family: "Microsoft Yahei";
+    padding: 15px;
+}
+
+#card4 {
+    background-color: #2a6799;
+    color: whitesmoke;
+    font-family: "Microsoft Yahei";
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+}
+
+#footer {
+    background-color: #262626;
+    width: 100%;
+    height: 300px;
+    padding: 30px 100px;
+
+}
+
+#foot-right {
+    margin-left: 700px;
+    color: whitesmoke;
+    font-size: medium;
+    font-family: "Microsoft Yahei";
+}
+
+#box1 {
+    width: 45px;
+    height: 45px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    background-image: url(../images/footer_focus.png);
+    background-position: -3px 5px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+#box2 {
+    margin-left: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    background-image: url(../images/footer_focus.png);
+    background-position: -182px 5px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+#box3 {
+    margin-left: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    background-image: url(../images/footer_focus.png);
+    background-position: -90px 5px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+#main-form {
+    margin: 100px auto;
+    background-color: white;
+    height: 500px;
+    width: 850px;
+    box-shadow: 0px 8px 20px rgba(122, 143, 153, 0.2);
+}
+#leftpart{
+    float: left;
+    height: 100%;
+    width: 450px;
+}
+#rightpart{
+    float: left;
+    height: 100%;
+    width: 300px;
+    position: relative;
+}
+#logo {
+    padding: 30px;
+    padding-left: 40px;
+    float: left;
+}
+#login {
+    padding-left: 60px;
+}
+#img4{
+    position: absolute;
+    left: 100px;
+    top:80px
+}
+#img5{
+    position: absolute;
+    left: 95px;
+    top:190px;
+}
+#img3{
+    position: absolute;
+    left: 85px;
+    top:200px;
+}
+#qrcode1{
+    position: absolute;
+    left: 80px;
+    top:350px;
+}
+#qrcode2{
+    position: absolute;
+    left: 105px;
+    top:375px;
+}
+
+#trangle1{
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid black;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+#trangle2{
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid lightblue;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+#trangle3{
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid lightblue;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+#trangle4{
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid #2a6799;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}

@@ -1,0 +1,58 @@
+	
+			#form-login {
+				margin: 80px auto;
+				background-color: whitesmoke;
+				height: 600px;
+				width: 850px;
+				box-shadow: 0px 8px 20px rgba(122, 143, 153, 0.2);
+			}
+			#login-left{
+				float: left;
+				height: 100%;
+				width: 400px;
+			}
+			#login-right{
+				float: left;
+				height: 100%;
+				width: 400px;
+				position: relative;
+			}
+			#logo {
+				padding: 60px;
+				float: left;
+			}
+
+			#form {
+				padding-left: 60px;
+			}
+			#img1{
+				position: absolute;
+				left: 150px;
+				top:90px
+			}
+			#img2{
+				position: absolute;
+				left: 143px;
+				top:200px;
+			}
+			#img3{
+				position: absolute;
+				left: 130px;
+				top:210px;
+			}
+			#saoma1{
+				position: absolute;
+				left: 120px;
+				top:380px;
+			}
+			#boder{
+				margin-left: 40px;
+				float: left;
+				height: 100%;
+				width: 10px;
+			}
+			#saoma2{
+				position: absolute;
+				left: 145px;
+				top:395px;
+			}

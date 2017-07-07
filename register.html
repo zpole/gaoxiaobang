@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>用户登陆-高校邦</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link href="css/carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	</head>
+
+	<body background="images/bg.png">
+		<form method="get" onsubmit="ValidateAccount()">
+			<div id="main-form">
+				<div id="leftpart">
+					<div class="row">
+						<div id="logo">
+							<img src="images/xiaohui1.jpg" width="200px" />
+							<span>丨</span>
+							<span>用户登录</span>
+						</div>
+					</div>
+
+					<div id="login">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="input-group">
+									<input type="text" class="form-control" style="height: 50px;" aria-label="..." placeholder="大连交通大学">
+									<div class="input-group-btn">
+										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="height: 50px;" aria-expanded="true"><span class="caret"></span></button>
+										<ul class="dropdown-menu dropdown-menu-right" role="menu">
+											<li><a href="#">大连交通大学</a></li>
+											<li><a href="#">齐鲁师范学院</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="form-group" style="margin-top: 20px;">
+									<input type="text" class="form-control" style="height: 50px;" aria-label="..." placeholder="请输入手机号/邮箱/学号" id="username">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="form-group" style="margin-top: 5px;">
+									<input type="password" class="form-control" style="height: 50px;" aria-label="..." placeholder="请输入密码" id="passwd">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="checkbox" style="margin-left: 15px; margin-top: 10px;">
+								<label><input type="checkbox"> 七天内免登录</label>
+								<span style="margin-left: 210px;">
+									<a href="#" style="color: black;">忘记密码？</a>
+								</span>
+							</div>
+						</div>
+
+						<div class="row">
+							<div style="margin-top: 10px;">
+								<button type="submit" class="btn btn-info col-xs-12">登录</button>
+							</div>
+						</div>
+
+						<div class="row" style="margin-top: 10px;">
+							<p style="margin-left:10px;">有问题请联系<a href="#">在线客服</a><span style="margin-left: 200px"><a href="#">立即注册</a></span></p>
+						</div>
+					</div>
+				</div>
+
+				<img src="images/border.png" style="margin-left: 50px; margin-top: 0px; float: left; height: 100%; width: 10px;"/>
+
+				<div id="rightpart">
+					<img src="images/health.png" id="img4" width="100px"/>
+					<img src="images/handcode.png" id="img5" width="100px"/>
+					<img src="images/code.png" id="img3"/>
+					<div id="qrcode1">
+						<p>扫码下载<a href="#">高校邦APP</a>移</p>
+					</div>
+					<div id="qrcode2">
+						<p>动学习新体验!</p>
+					</div>
+				</div>
+			</div>
+		</form>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			function ValidateAccount() {
+				var account = document.getElementById('username');
+				var passwd = document.getElementById('passwd');
+				var pattern = /1(1|3|5|7|8)[0-9]{9}/;
+				if (!pattern.test(account.value)) {
+					alert("请输入正确的手机号！")
+					return false;
+				}
+				if (passwd.value == "") {
+					alert("密码不能为空！")
+					return false;
+				}
+				return true;
+			}
+		</script>
+	</body>
+
+</html>

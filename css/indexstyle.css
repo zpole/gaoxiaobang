@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	padding: 15px;
+}
+
+#img1 {
+	display: block;
+	float: left;
+}
+
+#head1 {
+	float: left;
+}
+
+#butt1 {
+	float: left;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.thumbnail {
+	border: 0px;
+}
+
+#back {
+	width: 100%;
+	height: 350px;
+	background-color: lightcyan;
+	position: relative;
+}
+
+#inside {
+	position: absolute;
+	right: 370px;
+	top: 50px;
+}
+
+#word {
+	position: absolute;
+	left: 450px;
+	top: 100px;
+}
+
+#butongroup {
+	position: absolute;
+	left: 400px;
+	top: 210px;
+}
+
+#firstmedia {
+	background-color: #262626;
+	color: darkcyan;
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+
+#secondmedia {
+	background-color: #269ABC;
+	color: whitesmoke;
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+
+#thirdmedia {
+	background-color: #269ABC;
+	color: whitesmoke;
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+
+#fourthmedia {
+	background-color: #2B669A;
+	color: whitesmoke;
+	font-family: "微软雅黑";
+	padding: 15px;
+	width: 200px;
+	height: 300px;
+}
+
+#footer {
+	background-color: #262626;
+	width: 100%;
+	height: 300px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 60px 100px;
+}
+
+#footer-patern {
+	margin-top: 20px;
+	width: 600px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-image: url(../images/footer_partner.png);
+}
+
+#foot-right {
+	margin-left: 700px;
+	color: whitesmoke;
+	font-size: medium;
+	font-family: "微软雅黑";
+}
+
+#box1 {
+	width: 45px;
+	height: 45px;
+	background-color: deepskyblue;
+	border-radius: 50%;
+	background-image: url(../images/footer_focus.png);
+	background-position: -3px 5px;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+#box2 {
+	margin-left: 30px;
+	width: 45px;
+	height: 45px;
+	background-color: deepskyblue;
+	border-radius: 50%;
+	background-image: url(../images/footer_focus.png);
+	background-position: -182px 5px;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+#box3 {
+	margin-left: 30px;
+	width: 45px;
+	height: 45px;
+	background-color: deepskyblue;
+	border-radius: 50%;
+	background-image: url(../images/footer_focus.png);
+	background-position: -90px 5px;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
